@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8 ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TaskFlo</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <div class="box">
+            <section class="left"> <!--Left Side-->
+                
+                <img src="images/logoTaskFlo.png" alt="Logo" class="logo-left-side">
+
+
+                <ul class="navigate">
+                    <li><a href="todolist.html" class="todolist">To Do List</a></li>
+                    <li><a href="folders.html" class="folders">Folders</a></li>
+                    <li><a href="recap.html" class="recap">Recap</a></li>
+                </ul>
+
+                <button type="submit" class="logout"> LOG OUT</button>
+            </section>
+
+
+            <aside class="right"> <!--right side-->
+
+                <header class="header-right">
+                    <h1>To Do List</h1>
+                        <div class="header-right-right">
+                            <h3 id="current-week">Week: </h3> <!--JS-->
+                        </div>
+                    </header>
+        
+                
+
+                <section class = "adding-padding-todolist">   
+                    <div class="container123">
+                        <div class="input-container-todolist">
+                            <input type="text" id="taskInput_todolist" placeholder="Add a new task" />
+                            <button id="addTaskButton" class="adding_task_todolist">+</button>
+                        </div>
+                    </div>
+                    
+                    <div class="task-list" id="taskList">
+
+                     
+                    
+                    </div>
+                </section>
+            </aside>
+        </div>
+        
+        
+        
+        <script src="js/todolist.js"></script>
+        
+    </body>
+</html>
